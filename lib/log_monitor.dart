@@ -8,10 +8,10 @@ class LogMonitor {
   String url;
   LogMonitor(this.url);
 
-  info(String type,String msg){
-    Dio().post(
+  info(String type,String msg)async{
+    await Dio().post(
       this.url + '/info',
-      data:{type:type,msg:msg}
+      data:{'type':type,'msg':msg}
     );
   }
 }

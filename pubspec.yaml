@@ -1,6 +1,6 @@
 name: log_monitor
 description: A new Flutter package can log in a app in release model and show in web.
-version: 0.0.1
+version: 0.0.3
 author: caipeng<caipenghsxr@gmail.com>
 homepage: https://github.com/caipeng-hrv/log_monitor
 
